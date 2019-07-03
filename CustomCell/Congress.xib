@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="209" id="KGk-i7-Jjw" customClass="Congress" customModule="CustomCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="209"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="208.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sonia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRj-jA-jgJ">
+                        <rect key="frame" x="135" y="101" width="56" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="India" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhV-ex-Q8k">
+                        <rect key="frame" x="142" y="177" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="congresslogo" translatesAutoresizingMaskIntoConstraints="NO" id="GLk-1e-fWH">
+                        <rect key="frame" x="78" y="11" width="170" height="82"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="170" id="Qmo-Je-84T"/>
+                            <constraint firstAttribute="height" constant="82" id="cBH-Lk-Iaf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Congress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wv-OT-SAK">
+                        <rect key="frame" x="124" y="137" width="78" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jhV-ex-Q8k" firstAttribute="centerX" secondItem="GLk-1e-fWH" secondAttribute="centerX" id="2S7-eQ-Bh8"/>
+                    <constraint firstItem="1wv-OT-SAK" firstAttribute="centerX" secondItem="GLk-1e-fWH" secondAttribute="centerX" id="6e6-wQ-9dA"/>
+                    <constraint firstItem="1wv-OT-SAK" firstAttribute="top" secondItem="GLk-1e-fWH" secondAttribute="bottom" constant="44" id="8Ja-0y-RMW"/>
+                    <constraint firstItem="GLk-1e-fWH" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-7.5" id="B9b-zJ-M1o"/>
+                    <constraint firstItem="HRj-jA-jgJ" firstAttribute="centerX" secondItem="GLk-1e-fWH" secondAttribute="centerX" id="Qle-nE-vra"/>
+                    <constraint firstItem="GLk-1e-fWH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="csq-23-MIy"/>
+                    <constraint firstItem="jhV-ex-Q8k" firstAttribute="top" secondItem="GLk-1e-fWH" secondAttribute="bottom" constant="84" id="gQF-1n-B0R"/>
+                    <constraint firstItem="HRj-jA-jgJ" firstAttribute="top" secondItem="GLk-1e-fWH" secondAttribute="bottom" constant="8" id="k0e-2t-2wi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="35.5" y="134.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="congresslogo" width="1200" height="799"/>
+    </resources>
+</document>

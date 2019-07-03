@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42A22E22075E3EA008E32B4 /* kajal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A22E02075E3EA008E32B4 /* kajal.swift */; };
+		D42A22E32075E3EA008E32B4 /* kajal.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42A22E12075E3EA008E32B4 /* kajal.xib */; };
+		D42A22E62075EDB5008E32B4 /* Bjp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A22E42075EDB5008E32B4 /* Bjp.swift */; };
+		D42A22E72075EDB5008E32B4 /* Bjp.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42A22E52075EDB5008E32B4 /* Bjp.xib */; };
+		D42A22EA2075EDD0008E32B4 /* Congress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A22E82075EDD0008E32B4 /* Congress.swift */; };
+		D42A22EB2075EDD0008E32B4 /* Congress.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42A22E92075EDD0008E32B4 /* Congress.xib */; };
+		D42A22EE2075EDF6008E32B4 /* Dhoni.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A22EC2075EDF6008E32B4 /* Dhoni.swift */; };
+		D42A22EF2075EDF6008E32B4 /* Dhoni.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42A22ED2075EDF6008E32B4 /* Dhoni.xib */; };
+		D42A22F22075EE10008E32B4 /* virat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A22F02075EE10008E32B4 /* virat.swift */; };
+		D42A22F32075EE10008E32B4 /* virat.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42A22F12075EE10008E32B4 /* virat.xib */; };
 		D4ED2A3E2074F88200ED0DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED2A3D2074F88200ED0DAA /* AppDelegate.swift */; };
 		D4ED2A402074F88200ED0DAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED2A3F2074F88200ED0DAA /* ViewController.swift */; };
 		D4ED2A432074F88200ED0DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4ED2A412074F88200ED0DAA /* Main.storyboard */; };
@@ -14,6 +24,8 @@
 		D4ED2A482074F88200ED0DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4ED2A462074F88200ED0DAA /* LaunchScreen.storyboard */; };
 		D4ED2A532074F88200ED0DAA /* CustomCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED2A522074F88200ED0DAA /* CustomCellTests.swift */; };
 		D4ED2A5E2074F88200ED0DAA /* CustomCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED2A5D2074F88200ED0DAA /* CustomCellUITests.swift */; };
+		D4ED2A6D2074F8E400ED0DAA /* CellCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED2A6B2074F8E400ED0DAA /* CellCustom.swift */; };
+		D4ED2A6E2074F8E400ED0DAA /* CellCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4ED2A6C2074F8E400ED0DAA /* CellCustom.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D42A22E02075E3EA008E32B4 /* kajal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kajal.swift; sourceTree = "<group>"; };
+		D42A22E12075E3EA008E32B4 /* kajal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = kajal.xib; sourceTree = "<group>"; };
+		D42A22E42075EDB5008E32B4 /* Bjp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bjp.swift; sourceTree = "<group>"; };
+		D42A22E52075EDB5008E32B4 /* Bjp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Bjp.xib; sourceTree = "<group>"; };
+		D42A22E82075EDD0008E32B4 /* Congress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Congress.swift; sourceTree = "<group>"; };
+		D42A22E92075EDD0008E32B4 /* Congress.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Congress.xib; sourceTree = "<group>"; };
+		D42A22EC2075EDF6008E32B4 /* Dhoni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhoni.swift; sourceTree = "<group>"; };
+		D42A22ED2075EDF6008E32B4 /* Dhoni.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Dhoni.xib; sourceTree = "<group>"; };
+		D42A22F02075EE10008E32B4 /* virat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = virat.swift; sourceTree = "<group>"; };
+		D42A22F12075EE10008E32B4 /* virat.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = virat.xib; sourceTree = "<group>"; };
 		D4ED2A3A2074F88200ED0DAA /* CustomCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4ED2A3D2074F88200ED0DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4ED2A3F2074F88200ED0DAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,8 @@
 		D4ED2A592074F88200ED0DAA /* CustomCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4ED2A5D2074F88200ED0DAA /* CustomCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellUITests.swift; sourceTree = "<group>"; };
 		D4ED2A5F2074F88200ED0DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4ED2A6B2074F8E400ED0DAA /* CellCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCustom.swift; sourceTree = "<group>"; };
+		D4ED2A6C2074F8E400ED0DAA /* CellCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCustom.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				D4ED2A3C2074F88200ED0DAA /* CustomCell */,
+				D42A22EC2075EDF6008E32B4 /* Dhoni.swift */,
 				D4ED2A512074F88200ED0DAA /* CustomCellTests */,
 				D4ED2A5C2074F88200ED0DAA /* CustomCellUITests */,
 				D4ED2A3B2074F88200ED0DAA /* Products */,
@@ -103,6 +128,17 @@
 				D4ED2A442074F88200ED0DAA /* Assets.xcassets */,
 				D4ED2A462074F88200ED0DAA /* LaunchScreen.storyboard */,
 				D4ED2A492074F88200ED0DAA /* Info.plist */,
+				D4ED2A6B2074F8E400ED0DAA /* CellCustom.swift */,
+				D4ED2A6C2074F8E400ED0DAA /* CellCustom.xib */,
+				D42A22E02075E3EA008E32B4 /* kajal.swift */,
+				D42A22E12075E3EA008E32B4 /* kajal.xib */,
+				D42A22E42075EDB5008E32B4 /* Bjp.swift */,
+				D42A22E52075EDB5008E32B4 /* Bjp.xib */,
+				D42A22E82075EDD0008E32B4 /* Congress.swift */,
+				D42A22E92075EDD0008E32B4 /* Congress.xib */,
+				D42A22ED2075EDF6008E32B4 /* Dhoni.xib */,
+				D42A22F02075EE10008E32B4 /* virat.swift */,
+				D42A22F12075EE10008E32B4 /* virat.xib */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -232,8 +268,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42A22E72075EDB5008E32B4 /* Bjp.xib in Resources */,
+				D42A22E32075E3EA008E32B4 /* kajal.xib in Resources */,
 				D4ED2A482074F88200ED0DAA /* LaunchScreen.storyboard in Resources */,
+				D42A22EB2075EDD0008E32B4 /* Congress.xib in Resources */,
+				D42A22F32075EE10008E32B4 /* virat.xib in Resources */,
+				D42A22EF2075EDF6008E32B4 /* Dhoni.xib in Resources */,
 				D4ED2A452074F88200ED0DAA /* Assets.xcassets in Resources */,
+				D4ED2A6E2074F8E400ED0DAA /* CellCustom.xib in Resources */,
 				D4ED2A432074F88200ED0DAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42A22E62075EDB5008E32B4 /* Bjp.swift in Sources */,
 				D4ED2A402074F88200ED0DAA /* ViewController.swift in Sources */,
+				D42A22EE2075EDF6008E32B4 /* Dhoni.swift in Sources */,
+				D42A22E22075E3EA008E32B4 /* kajal.swift in Sources */,
+				D42A22F22075EE10008E32B4 /* virat.swift in Sources */,
+				D4ED2A6D2074F8E400ED0DAA /* CellCustom.swift in Sources */,
 				D4ED2A3E2074F88200ED0DAA /* AppDelegate.swift in Sources */,
+				D42A22EA2075EDD0008E32B4 /* Congress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
